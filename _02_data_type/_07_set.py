@@ -1,7 +1,7 @@
 # set(집합)
 # - 중복 허용 X
-# - 시퀀스 타입 X
 # - 순서 유지 X
+# - 시퀀스 타입 X
 # - 순회(iterable) O
 # - 집합 관련 메서드 제공됨
 # - 기호 : {}
@@ -61,3 +61,7 @@ print('합집합: ', m.union(n))
 print('교집합: ', m.intersection(n))
 print('차집합: ', m.difference(n))
 print('대칭차집합: ', m.symmetric_difference(n)) # 합집합 - 교집합
+
+
+
+
