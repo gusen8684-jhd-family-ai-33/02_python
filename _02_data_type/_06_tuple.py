@@ -1,15 +1,15 @@
 # tuple
 # - 변경 불가(immutable)한 list
 # - sequence type (indexing, slicing, iterable)
-# - 시퀀스 타입 (인덱싱, 슬라이싱, 순회)
+# - 시퀀스 타입(인덱싱, 슬라이싱, 순회)
 # - 주로 함수 반환 값, 안전한 데이터 집합을 만들 때 사용
 
 print("--- tuple ---")
-t1 = () # 비어있는 튜플
-t2 = (10) # == (Int)10 과 같음
+t1 = ()  # 비어있는 튜플
+t2 = (10) #  (int)10 과 같음
 t3 = (10,) # (tuple)(10) 과 같음
 t4 = (10, 20)
-t5 = 10, 20 # () 생략 -> 자동 packing
+t5 = 10, 20  # () 생략 -> 자동 packing
 
 print(t1, type(t1))
 print(t2, type(t2))
