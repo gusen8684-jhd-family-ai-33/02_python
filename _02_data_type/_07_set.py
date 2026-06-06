@@ -62,6 +62,3 @@ print('교집합: ', m.intersection(n))
 print('차집합: ', m.difference(n))
 print('대칭차집합: ', m.symmetric_difference(n)) # 합집합 - 교집합
 
-
-
-
